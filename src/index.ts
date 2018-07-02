@@ -26,7 +26,7 @@ async function sleep( time: number ): Promise<void> {
 }
 
 async function ready4Browser(): Promise<void> {
-    browser = await puppeteer.launch( { headless: false } );
+    browser = await puppeteer.launch();
 }
 
 function storeEthAddress( address: string, publicKey: string, privateKey: string ): void {
