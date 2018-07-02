@@ -101,7 +101,7 @@ async function letUsPlay(): Promise<void> {
 
         console.log( 'waiting for next one ...' );
 
-        await sleep( 60 * 1000 );
+        await sleep( 60 * 5 * 1000 );
     }
     
 }
